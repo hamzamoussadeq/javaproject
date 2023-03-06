@@ -1,0 +1,17 @@
+<div class="card-deck">
+    <div class="card" *ngFor="let item of data">
+      <img class="card-img-top" src="{{item.image}}" alt="{{item.id}}" height="60%" >
+      <div class="card-body">
+        <h5 class="card-title">{{item.name}}</h5>
+        <p class="card-text">{{item.description}}</p>
+        <p class="card-text">Price: Rs {{item.price}}/-</p>
+        <section>
+          <div class="example-button">
+            <button mat-flat-button color="primary" routerLink="/cart" (click)="addCart(item)">Add to Cart</button>
+          </div>
+        </section>
+      </div>
+    </div>
+</div>
+  
+

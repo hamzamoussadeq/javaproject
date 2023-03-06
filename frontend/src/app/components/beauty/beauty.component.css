@@ -1,0 +1,32 @@
+.card-deck{
+    padding: 20px;
+}
+.card-title {
+    font-size: medium;
+    font-weight: bolder;
+}
+.card-text {
+    font-weight: 450;
+}
+
+.example-button {
+    text-align: center;
+    padding-top: 20px;
+} 
+
+/* .card {
+    float: left;
+    padding: 10px;
+    margin: 5px;
+} */
+
+/* .card img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    transition: 0.3s ease-in-out;
+} */
+/* .card img:hover {
+    transition: 0.1s ease-in-out;
+    transform: scale(1.1);
+}  */

@@ -1,0 +1,26 @@
+.product_s {
+    padding: 20px;
+    display: flex;
+  justify-content: center;
+}
+
+.product_s .form-control {
+    border: 1px solid black;
+}
+
+
+.card-deck{
+    padding: 20px;
+}
+.card-title {
+    font-size: medium;
+    font-weight: bolder;
+}
+.card-text {
+    font-weight: 450;
+}
+
+.example-button {
+    text-align: center;
+    padding-top: 14px;
+}

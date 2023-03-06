@@ -1,0 +1,16 @@
+.card {
+    height: auto;
+    margin: 25px;
+    padding: 25px;
+}
+.example-card {
+    margin:auto;
+width: 800px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    
+}
+.btn{
+    height: 40px;
+    margin: auto 10px;
+}

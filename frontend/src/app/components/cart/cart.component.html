@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="card">
+        <h1 class="card-title">My Cart</h1>
+        <div class="center">
+            <mat-card class="example-card" *ngFor="let item of cartItem">
+                <mat-card-header>
+                  <mat-card-title-group>
+                    <mat-card-title>{{item.quantity[0].product.name}}</mat-card-title>
+                    <mat-card-subtitle>{{item.quantity[0].product.description}}</mat-card-subtitle>
+                    <button class="btn btn-danger">Delete</button>
+                    <img mat-card-sm-image src={{item.quantity[0].product.image}} >
+                  </mat-card-title-group>
+                </mat-card-header>
+                <mat-card-content>
+                    Rs : {{item.quantity[0].product.price}}/-
+                </mat-card-content>
+              </mat-card>
+            <button class="btn btn-primary" routerLink="/order">Place Order</button>
+        </div>
+    </div>
+</div>

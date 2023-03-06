@@ -19,7 +19,7 @@ this.product.getProductByName(this.search).subscribe(
   {
     next:(r:any)=>{
       console.log(r)
-      for(let i of r){
+      for(const i of r){
         this.data.push(i);
       }
       

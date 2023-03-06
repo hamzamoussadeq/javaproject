@@ -25,7 +25,7 @@ export class RegisterService {
   }
   isRegister()
   {
-    let usersadd=localStorage.getItem("usersadd")
+    const usersadd=localStorage.getItem("usersadd")
     if(usersadd==undefined|| usersadd===''|| usersadd==null )
     {
       return false

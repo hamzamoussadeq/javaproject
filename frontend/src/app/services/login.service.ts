@@ -24,7 +24,7 @@ export class LoginService {
   }
 
   getUser(){
-    let id=localStorage.getItem("id");
+    const id=localStorage.getItem("id");
     return this.http.get(`${this.url}/user/${id}`);
   }
 
@@ -43,7 +43,7 @@ loginUser(token: string)
 //to check user login or not
 isLoggedIn()
 {
-  let token=localStorage.getItem("token");
+  const token=localStorage.getItem("token");
   if(token==undefined || token==='' || token==null)
   {
     return false;

@@ -17,7 +17,7 @@ export class KidsComponent implements OnInit{
       {
         next: (r: any) => {
           console.log(r);
-          for (let i of r) {
+          for (const i of r) {
             if (i.category == "kids") {
               this.data.push(i);
             }

@@ -8,7 +8,6 @@ import lombok.RequiredArgsConstructor;
 
 @Builder
 @Data
-@RequiredArgsConstructor
 public class ProductRequest {
 	
 	private String name;

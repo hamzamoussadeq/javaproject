@@ -1,12 +1,14 @@
 package com.retail.order.model;
 
-import java.math.BigDecimal;
+import jakarta.persistence.Entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+
+
+import java.math.BigDecimal;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "t_order_of_items")
